@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML5 Genetic Algorithm 2D Car Thingy - Chrome recommended</title>
+    <title>Bike Evolver</title>
     <style>
       #mainbox {
         width: 800px;
@@ -143,12 +143,6 @@
     </div>
     <div id="debug"></div>
     <div id="data">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="X8VB9NDYWQDPE">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-</form>
 <script>
 var CoinWidget_Config = {
   address : '1Dm9BtjZcAB7AGuituyAvDUeLndHqZGmRH'
@@ -205,32 +199,7 @@ var CoinWidget_Config = {
       <div id="cars"></div>
     </div>
     <div id="explanation">
-      <h3>Controls</h3>
-      Suprise: Toggles drawing, makes the simulation faster.<br />
-      New Population: Keeps the generated track and restarts the whole car population.<br />
-      Create new world with seed: The same seed always creates the same track, so you can agree on a seed with your friends and compete. :)<br />
-      Mutation rate: The chance that each gene in each individual will mutate to a random value when a new generation is born.<br />
-      Elite clones: The top n cars that will be copied over to the next generation.<br />
-      View top replay: Pause the current simulation and show the top performing car. Click a second time to resume simulation.
-      <h3>Graph</h3>
-      Red: Top score in each generation.<br />
-      Green: Average of the top 10 cars in each generation.<br />
-      Blue: Average of the entire generation.
-      <h3>But what is it?</h3>
-      The program uses a simple genetic algorithm to evolve random two-wheeled shapes into cars over generations. Loosely based on <a href="http://boxcar2d.com/">BoxCar2D</a>, but
-      written from scratch, only using the same physics engine (<a href="http://box2d.org/">box2d</a>).<br />
-      seedrandom.js written by <a href="http://davidbau.com/">David Bau</a>. (thanks!)
-      <h3>Genome</h3>
-      The genome consists of:<br />
-      - Shape: (8 genes, 1 per vertex)<br />
-      - Wheel size: (2 genes, 1 per wheel)<br />
-      - Wheel position: (2 genes, 1 per wheel)<br />
-      - Wheel density: (2 genes, 1 per wheel) darker wheels mean denser wheels
-      <h3>Blurb</h3>
-      This is not as deterministic as it should be, so your best car may not perform as well as it once did. The terrain gets more complex with distance.<br />
-      I'm not in the mood to deal with checking if all scripts have loaded before running, so refresh the page if things seem whack.<br />
-      Written by <a href="http://rednuht.org">this guy</a>.<br />
-      <a href="mailto:rednuht@rednuht.org">Send me food</a>.
+      
     </div>
     <div name="minimapmarker" class="minimapmarker"></div>
     <div name="healthbar" class="healthbar" onclick="cw_setCameraTarget(this.car_index)">
